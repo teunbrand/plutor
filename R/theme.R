@@ -327,7 +327,7 @@ theme_pl <- function(base_size = 10,
       axis.ticks = element_line(color = "black"),
       # axis tick line length
       axis.ticks.length = unit(6 * base_line_size, "pt"),
-      ggh4x.axis.ticks.length.minor = ggplot2::rel(0.6),
+      axis.minor.ticks.length = ggplot2::rel(0.6),
 
       ##################################
       ### rect
